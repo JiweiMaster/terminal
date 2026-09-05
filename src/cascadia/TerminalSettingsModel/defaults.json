@@ -25,7 +25,7 @@
 
     // Miscellaneous
     "warning.confirmOnClose": "automatic",
-    "theme": "dark",
+    "theme": "light",
     "snapToGridOnResize": true,
     "disableAnimations": false,
     "startupActions": "",
@@ -40,7 +40,7 @@
             "name": "Windows PowerShell",
             "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
             "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
-            "colorScheme": "Campbell",
+            "colorScheme": "One Half Light",
             "antialiasingMode": "grayscale",
             "closeOnExit": "automatic",
             "cursorShape": "bar",
@@ -59,7 +59,7 @@
             "name": "Command Prompt",
             "commandline": "%SystemRoot%\\System32\\cmd.exe",
             "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-            "colorScheme": "Campbell",
+            "colorScheme": "One Half Light",
             "antialiasingMode": "grayscale",
             "closeOnExit": "automatic",
             "cursorShape": "bar",

@@ -162,6 +162,11 @@ void IslandWindow::MakeWindow() noexcept
                                 this));
 
     WINRT_ASSERT(_window);
+
+    // Enable screenshot protection - exclude window from screen capture
+    // WDA_EXCLUDEFROMCAPTURE makes the window appear black in screenshots/screen recordings
+    // This is a security feature to prevent sensitive terminal content from being captured
+    SetWindowDisplayAffinity(_window.get(), WDA_EXCLUDEFROMCAPTURE);
 }
 
 // Method Description:
